@@ -1,0 +1,35 @@
+/* 重置即刻网页版的灰色系变量，提高对比度 */
+:root {
+  /* 灰色系列 */
+  --gray-000: #ffffff !important;
+  --gray-100: #f0f0f0 !important;
+  --gray-200: #e0e0e0 !important;
+  --gray-300: #c0c0c0 !important;
+  --gray-400: #909090 !important;
+  --gray-500: #606060 !important;
+  --gray-600: #404040 !important;
+  --gray-700: #303030 !important;
+  --gray-800: #202020 !important;
+  --gray-900: #101010 !important;
+
+  /* 文字颜色相关 */
+  --color-text: var(--gray-900) !important;
+  --color-secondary-text: var(--gray-700) !important;
+  --color-meta-text: var(--gray-700) !important;
+  
+  /* 其他灰色变量 */
+  --web-icon-gray_hover: #404040 !important;
+  --solid-gray-1: #a0a0a0 !important;
+  --solid-gray-2: #808080 !important;
+  --solid-gray-3: #404040 !important;
+  --solid-gray-4: #202020 !important;
+  --tint-icon-gray: #606060 !important;
+  --tint-primary: #202020 !important;
+  --tint-secondary: #404040 !important;
+  --tint-tertiary: #606060 !important;
+}
+
+/* 确保链接文字清晰可见 */
+a {
+  color: #1890ff !important;
+}
