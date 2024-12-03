@@ -28,8 +28,3 @@
   --tint-secondary: #404040 !important;
   --tint-tertiary: #606060 !important;
 }
-
-/* 确保链接文字清晰可见 */
-a {
-  color: #1890ff !important;
-}
