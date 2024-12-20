@@ -28,3 +28,23 @@
   --tint-secondary: #404040 !important;
   --tint-tertiary: #606060 !important;
 }
+[data-theme=dark] {
+  --tint-icon-gray: #999 !important;
+  --tint-primary: #dbdbdb !important;
+  --tint-secondary: #bfbfbf !important;
+  --tint-tertiary: #999 !important;
+  --web-icon-gray_hover: #cecece !important;
+  --gray-900: #fff !important;
+  --gray-800: #f4f4f4 !important;
+  --gray-700: #ededed !important;
+  --gray-600: #dedede !important;
+  --gray-500: #bfbfbf !important;
+  --gray-400: #999 !important;
+  --gray-300: #737373 !important;
+  --gray-200: #5f5f5f !important;
+  --gray-100: #404040 !important;
+  --gray-000: #1f1f1f !important;
+  --color-text: var(--gray-800) !important;
+  --color-secondary-text: var(--gray-500) !important;
+  --color-meta-text: var(--gray-500) !important;
+}

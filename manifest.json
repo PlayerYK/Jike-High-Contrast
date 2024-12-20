@@ -1,12 +1,10 @@
 {
   "manifest_version": 3,
   "name": "Jike High Contrast",
-  "version": "1.0",
-  "description": "提高即刻网页版的文字对比度，使文字更清晰易读",
+  "version": "1.0.1",
+  "description": "提高即刻网页版 okjike 的文字对比度，使文字更清晰易读，支持暗色模式",
   "permissions": ["activeTab"],
-  "host_permissions": [
-    "https://web.okjike.com/*"
-  ],
+  "host_permissions": ["https://web.okjike.com/*"],
   "content_scripts": [
     {
       "matches": ["https://web.okjike.com/*"],
